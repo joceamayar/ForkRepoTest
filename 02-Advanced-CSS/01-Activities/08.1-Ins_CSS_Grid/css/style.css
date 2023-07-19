@@ -1,0 +1,74 @@
+
+/* container 1 */
+.container1 {
+  display: grid;
+  row-gap:20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 500px 200px 100px;
+  
+}
+
+
+/*  container 2 */
+.container2{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 300px 300px 300px;
+  gap:20px
+  
+}
+
+/* container 3 */
+.container3{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  grid-template-rows: 300px 300px 300px;
+ 
+  
+}
+
+
+/* all code for container 4 */
+.container4 {
+  display: grid;
+  column-gap:20px;
+  grid-template-columns:  1fr 1fr 1fr;
+  grid-template-rows: 200px 200px 200px;
+  grid-template-areas: 
+    "header1 header2 header3" 
+    "content1 content2 content3"
+    "footer1 footer2 footer3";
+}
+
+.content1{
+  grid-area:content1;
+}
+.content2{
+  grid-area:content2;
+}
+.content3{
+  grid-area:content3;
+}
+.footer1{
+  grid-area:footer1;
+}
+.footer2{
+  grid-area:footer2;
+}
+.footer3{
+  grid-area:footer3;
+}
+.header1{
+  grid-area:header1;
+}
+.header2{
+  grid-area:header2;
+}
+.header3{
+  grid-area:header3;
+}
+
+
+
+
+
