@@ -1,7 +1,7 @@
 
 /* container 1 */
 
-/* TODO: 5 EQUALLY SIZED COLUMNS */
+/* TODO: 5 EQUALLY SIZED COLUMNS, ADD DISPLAY GRID,  200px HEIGHT PER ROW*/
 .container1 {
   row-gap: 20px;
   grid-template-columns: ;
@@ -10,7 +10,7 @@
 
 /*  container 2 */
 
-/* TODO: 3 COLUMNS MIDDLE COLUMN TWICE AS LARGE, ADD 50PX GAP */
+/* TODO: 3 COLUMNS MIDDLE COLUMN TWICE AS LARGE, ADD 50PX GAP 150px HEIGHT PER ROW*/
 .container2 {
   display: ;
   grid-template-columns: ;
@@ -19,7 +19,7 @@
 
 /* container 3 */
 
-/* TODO: 2 COLUMNS, ADD 20PX COLUMN GAP */
+/* TODO: 2 COLUMNS THE FIRST COLUMN 3 TIMES LARGER THAN THE SECOND, ADD 20PX COLUMN GAP */
 .container3 {
   display: grid;
   grid-template-columns: ;
@@ -27,7 +27,7 @@
 
 /* all code for container 4 */
 
-/* TODO: REVERSE THE COLUMNS SO THAT RED AND GREEN ARE SWAPPED ADD 20PX ROW GAPS*/
+/* TODO: REVERSE THE COLUMNS SO THAT RED AND GREEN ARE SWAPPED ADD 20PX ROW GAPS */
 .container4 {
   display: grid;
 

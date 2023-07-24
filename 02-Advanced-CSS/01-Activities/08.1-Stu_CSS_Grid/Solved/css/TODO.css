@@ -1,0 +1,78 @@
+
+
+/* container 1 */
+
+/* TODO: 5 EQUALLY SIZED COLUMNS, ADD DISPLAY GRID,  200px HEIGHT PER ROW*/
+
+.container1 {
+
+  display: grid;
+  row-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 200px 200px;
+}
+
+/*  container 2 */
+
+/* TODO: 3 COLUMNS MIDDLE COLUMN TWICE AS LARGE, ADD 50PX GAP  150px HEIGHT PER ROW*/
+.container2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  gap:50px;
+  grid-template-rows: 150px 150px 150px;
+}
+
+/* container 3 */
+
+/* TODO: 2 COLUMNS THE FIRST COLUMN 3 TIMES LARGER THAN THE SECOND, ADD 20PX COLUMN GAP
+ 100px 200px 300px HEIGHT PER ROW */
+.container3 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  column-gap: 20px;
+  grid-template-rows: 100px 200px 300px 400px 500px;
+}
+
+/* all code for container 4 */
+
+/* TODO: REVERSE THE COLUMNS SO THAT RED AND GREEN ARE SWAPPED ADD 20PX ROW GAPS
+ 100px HEIGHT PER ROW
+*/
+.container4 {
+  display: grid;
+
+  
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "green1 blue1 red1"
+    "green2 blue2 red2"
+    "green3 blue3 red3";
+}
+
+.red1 {
+  grid-area: red1;
+}
+.red2 {
+  grid-area: red2;
+}
+.red3 {
+  grid-area: red3;
+}
+.green1 {
+  grid-area: green1 ;
+}
+.green2 {
+  grid-area: green2 ;
+}
+.green3 {
+  grid-area: green3;
+}
+.blue1 {
+  grid-area: blue1;
+}
+.blue2 {
+  grid-area: blue2 ;
+}
+.blue3 {
+  grid-area: blue3;
+}
